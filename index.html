@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Inicio</title>
+  <link href="css/hoja.css" rel="stylesheet" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="img/favicon.PNG">
+</head>
+
+<body>
+  <div id="contenedor">
+
+    <header>
+      <div id="banner">
+        <img src="img/favicon.PNG" alt="logo">
+        <h1>Glow and Strong</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="nav-item active" onclick="setActive(this, 'inicio')">INICIO</a></li>
+          <li><a href="recetas.html" class="nav-item" onclick="setActive(this, 'recetas')">RECETAS</a></li>
+          <li><a href="outfits.html" class="nav-item" onclick="setActive(this, 'outfits')">OUTFITS</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="galeria">
+      <img src="img/imagen2.jpg" alt="Imagen 1">
+      <img src="img/imagen1.jpg" alt="Imagen 2">
+      <img src="img/imagen3.jpg" alt="Imagen 3">
+    </section>
+
+    <section id="bienvenida">
+      <h1>GLOW AND STRONG</h1>
+      <h2> 🌟 Aqui no solo entrenamos el cuerpo, ¡también brillamos con confianza! 🌟</h2>
+      <h3>En Glow and Strong, encontrarás todo lo que necesitas para potenciar tu energía y hacer de cada entrenamiento una experiencia increíble</h3>
+      <h3>🔥 Recetas deliciosas y nutritivas para alimentar tu progreso.
+        👟 Outfits llenos de estilo y comodidad para entrenar con actitud.
+        🎶 Playlists motivadoras para que cada repetición tenga su propio ritmo.
+        Este es tu espacio para inspirarte, moverte y sentirte increíble.
+      </h3>
+      <h2>💖 ¿Lista para brillar y ser más fuerte que nunca? 💖</h2>
+    </section>
+
+    <section id="video1">
+      <video class="video" autoplay loop muted>
+        <source src="img/video1.mp4" type="video/mp4">
+      </video>
+    </section>
+
+    <section id="recomendacionestext">
+      <h4>¡No pares de moverte! Sigue navegando </h4>
+    </section>
+
+    <div id="galeria2">
+      <section id="recomendaciones">
+        <a href="recetas.html">
+          <img src="img/recetas.jpg" alt="Imagen 1" class="imagen-hover">
+        </a>
+        <a href="outfits.html">
+          <img src="img/outfits.jpg" alt="Imagen 2" class="imagen-hover">
+        </a>
+      </section>
+    </div>
+
+    <footer>
+      <img src="img/footer.jpg" alt="footer">
+    </footer>
+  </div>
+</body>
+</html>
